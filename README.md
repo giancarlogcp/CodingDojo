@@ -1,2 +1,2 @@
-# dia1_cd
-Dia 1 Coding Dojo
+# Codgin Dojo - Dia 1
+Manejo de Archivos Angular con Net Core
