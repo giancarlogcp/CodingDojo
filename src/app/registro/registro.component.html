@@ -1,0 +1,18 @@
+<form [formGroup]="grupo" (ngSubmit)="registro()">
+  <input
+    type="text"
+    placeholder="Correo"
+    name="correo"
+    formControlName="correo"
+  /><br />
+  <input
+    type="password"
+    placeholder="Contraseña"
+    name="contrasenia"
+    formControlName="contrasenia"
+  />
+
+  <br />
+  <button [disabled]="grupo.invalid">Registrar</button>
+  <button>Login</button>
+</form>

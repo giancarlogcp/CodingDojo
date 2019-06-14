@@ -1,0 +1,17 @@
+<form [formGroup]="grupo" (ngSubmit)="logearse()">
+  <input
+    type="text"
+    placeholder="Correo"
+    name="correo"
+    formControlName="correo"
+  /><br />
+  <input
+    type="password"
+    placeholder="Contraseña"
+    name="contrasenia"
+    formControlName="contrasenia"
+  /><br />
+  <button [disabled]="grupo.invalid">Ingresar</button>
+  <button (click)="irRegistro()">Registro</button>
+  <button>Olvido Contraseña</button>
+</form>
